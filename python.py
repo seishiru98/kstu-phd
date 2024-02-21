@@ -25,3 +25,4 @@ for file in files_to_delete:
         print(f'{file} удален успешно')
     except OSError as e:
         print(f'Ошибка при удалении {file}: {e.strerror}')
+
